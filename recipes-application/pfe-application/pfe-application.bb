@@ -2,7 +2,7 @@ DESCRIPTION = "cameracapture application"
 SECTION = "examples" 
 LICENSE = "CLOSED" 
 
-SRCREV = "3cd0926946de2fcfc639cc655cf3e9fffb4592d5"
+SRCREV = "d9c8c6677eb3f7a19703a8c84b0bff94a5957f8b"
 SRC_URI = "git://github.com/thomassaison/maaxboard-code.git;branch=main"
 
 S = "${WORKDIR}/git"

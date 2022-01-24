@@ -15,6 +15,7 @@ CORE_IMAGE_EXTRA_INSTALL += " \
 "
 
 CORE_IMAGE_EXTRA_INSTALL_append = " \
+    linuxptp \
 "
 
 inherit extrausers

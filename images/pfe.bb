@@ -23,6 +23,7 @@ CORE_IMAGE_EXTRA_INSTALL += " \
     packagegroup-imx-security \
     packagegroup-fsl-gstreamer1.0 \
     packagegroup-fsl-gstreamer1.0-full \
+    pfe-application \
 "
 
 CORE_IMAGE_EXTRA_INSTALL_append = " \
@@ -45,6 +46,7 @@ CORE_IMAGE_EXTRA_INSTALL_append = " \
     evtest \
     mtd-utils \
     spitools \
+    linuxptp \
 "
 
 CORE_IMAGE_EXTRA_INSTALL_append_maaxboardnano = "wifi-service"
